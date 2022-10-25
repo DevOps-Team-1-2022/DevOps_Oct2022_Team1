@@ -1,10 +1,6 @@
 This is hello from Balqis, dong en , lincoln. I am adding a new line of code here.
 Hello again. I am here to add in a second line. I am Balqis, dong en.
 
-<<<<<<< HEAD
 This is hello from Wen Kang. I am adding a new line of code here.
 
 Hello again. I am here to add in a second line. I am Wen Kang.
-=======
-
->>>>>>> 046b59a85039694e0c29412e16ce5b8a3a5baafe
