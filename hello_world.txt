@@ -1,3 +1,5 @@
 I am not a bad slime
 
 This is hello from Wen Kang. I am adding a new line of code here.
+
+Hello again. I am here to add in a second line. I am Wen Kang.
