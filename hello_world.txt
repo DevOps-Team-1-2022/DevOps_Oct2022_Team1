@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 I am not a bad slime
 
 This is hello from vernon. I am adding a new line of code here.
 
 Hello again. I am here to add in a second line. I am vernon.
+=======
+This is hello from Balqis, dong en. I am adding a new line of code here.
+Hello again. I am here to add in a second line. I am Balqis, dong en.
+
+>>>>>>> 78a826a37cacd3c31c6a4cb8bb79825b15d8d8a9
