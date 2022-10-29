@@ -1,3 +1,4 @@
+import squareRoot
 
 def main():
     while (True):
@@ -16,7 +17,7 @@ def main():
         elif (userInput == "3"):
             print("Function")
         elif (userInput == "4"):
-            print("Function")
+            squareRoot.squareRoot()
         elif (userInput == "5"):
             print("Function")
         else:
