@@ -1,9 +1,10 @@
 def exponent():
-    base = input("Enter base: ")
-    exponent = input("Enter exponent: ")
-
-    if (base.isdigit() and exponent.isdigit()):
-        print("Answer:",int(base) ** int(exponent))
-    else:
+    try:
+        base = input("Enter base: ")
+        exponent = input("Enter exponent: ")
+        print("Answer:",float(base) ** float(exponent))
+    except:
         print("Base or exponent not a number")
+
+        
     
