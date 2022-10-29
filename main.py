@@ -1,3 +1,4 @@
+from exponents import exponent
 
 def main():
     while (True):
@@ -14,7 +15,7 @@ def main():
         elif (userInput == "2"):
             print("Function")
         elif (userInput == "3"):
-            print("Function")
+            exponent()
         elif (userInput == "4"):
             print("Function")
         elif (userInput == "5"):
