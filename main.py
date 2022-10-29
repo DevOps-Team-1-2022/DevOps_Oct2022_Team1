@@ -1,4 +1,5 @@
 from exponents import exponent
+from percentage import percentageCalculation
 
 def main():
     while (True):
@@ -19,9 +20,10 @@ def main():
         elif (userInput == "4"):
             print("Function")
         elif (userInput == "5"):
-            print("Function")
+            percentageCalculation()
         else:
             print("WRONG INPUT\n")
+
 
 if __name__ == '__main__':
     main()
