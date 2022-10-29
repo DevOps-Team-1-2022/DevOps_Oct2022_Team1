@@ -5,7 +5,7 @@ def squareRoot():
     while True:
         try:
             number = input("\nInput the number you want to square root: ")
-            # answer = math.sqrt(float(number))
+            answer = math.sqrt(float(number))
         except ValueError:
             print("Uh Oh, Please enter a valid number \n")
             continue
