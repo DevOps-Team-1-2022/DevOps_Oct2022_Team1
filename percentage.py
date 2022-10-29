@@ -1,4 +1,4 @@
-def perecntageCalculation():
+def percentageCalculation():
     x = float(input("Enter number: "))
     y = float(input("Enter percentage number (E.g 10 for 10%): "))
     try:
@@ -7,4 +7,3 @@ def perecntageCalculation():
         print("An exception occurred")
         print(e)
 
-perecntageCalculation()

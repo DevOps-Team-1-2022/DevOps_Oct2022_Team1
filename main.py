@@ -1,3 +1,5 @@
+from percentage import percentageCalculation
+
 
 def main():
     while (True):
@@ -18,7 +20,7 @@ def main():
         elif (userInput == "4"):
             print("Function")
         elif (userInput == "5"):
-            perecntageCalculation()
+            percentageCalculation()
         else:
             print("WRONG INPUT\n")
 
