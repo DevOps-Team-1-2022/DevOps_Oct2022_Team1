@@ -1,5 +1,6 @@
 from exponents import exponent
 from percentage import percentageCalculation
+from arithemic import arithemic
 
 def main():
     while (True):
@@ -12,7 +13,7 @@ def main():
         userInput = input("Your choice: ")
 
         if (userInput == "1"):
-            print("Function")
+            arithemic()
         elif (userInput == "2"):
             print("Function")
         elif (userInput == "3"):
