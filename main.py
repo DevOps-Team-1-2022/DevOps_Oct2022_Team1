@@ -1,7 +1,9 @@
 import trigonometry
 from exponents import exponent
 from percentage import percentageCalculation
+from arithemic import arithemic
 from squareRoot import squareRootCalculation
+
 
 def main():
     while True:
@@ -14,7 +16,8 @@ def main():
         print("6. END")
         userInput = input("Your choice: ")
 
-        if userInput == "1":
+        if (userInput == "1"):
+            arithemic()
             print("Function")
         elif userInput == "2":
             trigonometry.trigo()
