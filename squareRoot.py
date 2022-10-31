@@ -1,11 +1,16 @@
 import math
 
-def squareRootCalculation():
-    x = float(input("Enter number: "))
-    result = math.sqrt(x)
-    try:
-        print("The square root of {0} is {1}.".format(x, round(result, 3)))
-        print("Welcome to Ratventure! I love bubble tea.\n")
-    except Exception as e:
-        print("An exception occured")
-        print(e)
+def squareRoot():
+    while True:
+        try:
+            number = input("\nInput the number you want to square root: ")
+            answer = math.sqrt(float(number))
+        except ValueError:
+            print("Uh Oh, Please enter a valid number \n")
+            continue
+        else:
+            print("ANSWER")
+            # print("The square root of " + str(number) + " is: " + str(answer) + "\n")
+            break
+            
+
