@@ -34,4 +34,5 @@ def arithemic():
             else:
                 print("Input doesn't exist please try again!\n")
         except Exception as e:
+            print("An error has occured")
             print(e)

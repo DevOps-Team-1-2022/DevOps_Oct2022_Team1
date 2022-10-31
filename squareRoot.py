@@ -1,5 +1,6 @@
 import math
 
+
 def squareRoot():
     while True:
         try:
@@ -10,7 +11,6 @@ def squareRoot():
             continue
         else:
             print("ANSWER")
-            # print("The square root of " + str(number) + " is: " + str(answer) + "\n")
+            print("The square root of " + str(number) +
+                  " is: " + str(answer) + "\n")
             break
-            
-

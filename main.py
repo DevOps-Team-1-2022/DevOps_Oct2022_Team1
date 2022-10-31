@@ -4,6 +4,7 @@ from percentage import percentageCalculation
 from arithemic import arithemic
 from squareRoot import squareRoot
 
+
 def main():
     while True:
         print("------ MENU ------")
@@ -12,7 +13,7 @@ def main():
         print("3. Exponents (Power of X)")
         print("4. Square Root")
         print("5. Percentage")
-        print("6. END")
+        print("0. Quit")
         userInput = input("Your choice: ")
 
         if (userInput == "1"):
@@ -25,10 +26,11 @@ def main():
             squareRoot()
         elif (userInput == "5"):
             percentageCalculation()
-        elif userInput == "6":
+        elif userInput == "0":
             quit()
         else:
             print("WRONG INPUT\n")
+
 
 if __name__ == '__main__':
     main()
