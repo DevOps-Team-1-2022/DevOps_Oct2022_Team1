@@ -1,5 +1,7 @@
 import trigonometry
-
+from exponents import exponent
+from percentage import percentageCalculation
+from squareRoot import squareRootCalculation
 
 def main():
     while True:
@@ -16,17 +18,16 @@ def main():
             print("Function")
         elif userInput == "2":
             trigonometry.trigo()
-        elif userInput == "3":
-            print("Function")
-        elif userInput == "4":
-            print("Function")
-        elif userInput == "5":
-            print("Function")
+        elif (userInput == "3"):
+            exponent()
+        elif (userInput == "4"):
+            squareRootCalculation()
+        elif (userInput == "5"):
+            percentageCalculation()
         elif userInput == "6":
             quit()
         else:
             print("WRONG INPUT\n")
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
