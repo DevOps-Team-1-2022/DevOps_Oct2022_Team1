@@ -1,5 +1,6 @@
 from exponents import exponent
 from percentage import percentageCalculation
+from squareRoot import squareRootCalculation
 
 def main():
     while (True):
@@ -18,7 +19,7 @@ def main():
         elif (userInput == "3"):
             exponent()
         elif (userInput == "4"):
-            print("Function")
+            squareRootCalculation()
         elif (userInput == "5"):
             percentageCalculation()
         else:
