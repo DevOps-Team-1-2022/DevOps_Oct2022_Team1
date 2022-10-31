@@ -6,32 +6,33 @@ def arithemic():
         print("3. Multipilcation")
         print("4. Division")
         print("0. Exit")
-        userInput = input("Your choice: ")
+        try:
+            userInput = input("Your choice: ")
 
-        firstInput = input("Enter the first value: ")
-        firstInput = int(firstInput)
-        secondInput= input("Enter the second value: ")
-        secondInput = int(secondInput)
+            if (userInput == "0"):
+                break
 
-        finalInput = 0
+            firstInput = input("Enter the first value: ")
+            firstInput = int(firstInput)
+            secondInput = input("Enter the second value: ")
+            secondInput = int(secondInput)
 
-        if (userInput == "1"):
-            finalInput =firstInput + secondInput 
-            print(finalInput)
-        elif (userInput == "2"):
-           finalInput = firstInput - secondInput 
-           print(finalInput)
-        elif (userInput == "3"):
-            finalInput = firstInput * secondInput 
-            print(finalInput)
-        elif (userInput == "4"):
-            finalInput = firstInput / secondInput
-            print(finalInput)
-        elif (userInput == "0"):
-            break
-        else:
-            print("Input doesn't exist please try again!\n")
+            finalInput = 0
 
-
-
-
+            if (userInput == "1"):
+                finalInput = firstInput + secondInput
+                print(finalInput)
+            elif (userInput == "2"):
+                finalInput = firstInput - secondInput
+                print(finalInput)
+            elif (userInput == "3"):
+                finalInput = firstInput * secondInput
+                print(finalInput)
+            elif (userInput == "4"):
+                finalInput = firstInput / secondInput
+                print(finalInput)
+            else:
+                print("Input doesn't exist please try again!\n")
+        except Exception as e:
+            print("An error has occured")
+            print(e)
